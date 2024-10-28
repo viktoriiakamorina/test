@@ -18,7 +18,7 @@
   }
 
   // Dynamically loading the ES module
-  loadModule('https://cors-anywhere.herokuapp.com/https://sapocplkwebcomponents.blob.core.windows.net/static/plk-app-div-web-components.esm.js')
+  loadModule('https://sapocplkwebcomponents.blob.core.windows.net/static/plk-app-div-web-components.esm.js')
       .then(() => {
           // You can now use the imported module functions or components
           // If the module exports components or methods you'd like to use globally,
